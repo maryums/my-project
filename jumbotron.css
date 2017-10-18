@@ -45,3 +45,8 @@ img {
     display: block;
     margin: auto;
 }
+
+.resize {
+    width: 300px;
+    height: auto;
+}
