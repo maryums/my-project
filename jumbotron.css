@@ -1,6 +1,16 @@
 /* Move down content because we have a fixed navbar that is 3.5rem tall */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
 body {
   padding-top: 3.5rem;
+  font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.3em;
+  
+}
+
+.display-3 {
+    text-align: center;
 }
 a {
     color: #a4c639;
@@ -10,21 +20,20 @@ a:hover {
     color: #000;
     text-decoration: none;
 }
-.portfolio {
-    padding: .5rem;
+#portfolio {
+    padding: 1.0rem;
 }
 
-.skillz {
-    padding: .5rem;
+#skillz {
+    padding: 1.0rem;
 }
 #weather  {
     padding: 1.0rem;
+
 }
 #austinpets  {
     padding: 1.0rem;
-}
-#skills  {
-    padding: 1.0rem;
+
 }
 
 #about  {
@@ -32,11 +41,16 @@ a:hover {
 }
 
 #footer {
-    padding: 1.0rem;
+    padding: 1rem;
+    background-color: black;
+    color: #a4c639;
+    text-align: center;
+    
 }
 
 .col-sm-4, .col-sm-8 {
     padding: .5rem;
+
 }
 
 img {
@@ -47,6 +61,21 @@ img {
 }
 
 .resize {
-    width: 300px;
+    width: 250px;
     height: auto;
+}
+
+.resizez {
+ border-radius: 50%;
+ width: 250px;
+}
+
+.sectionheading {
+    color: #black;
+}
+
+.sectionheadingclear {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
 }
